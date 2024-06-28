@@ -1,0 +1,6 @@
+Node.js LifeCycle:-
+-> The working of node.js looks like this
+-> node app.js -> start program -> register Functions and variales -> Event loop
+
+understanding Requests:-
+-> 

@@ -1,0 +1,29 @@
+Promise:-
+-> In js, the promise is an interface, this promise are mainly useful in the api calls
+-> let say we request a api call to the server and waiting for the result on that time we
+can use the promise to write the asynchronous code.
+-> By using the promise we can tell the differentiate the code like if we get the response
+from the browser then do this or else do this, like that.
+-> Example:-
+
+let mypromise = new promise((myResolve,myReject)=>{
+   myResolve();
+})
+
+mypromise.then(() =>{
+ console.log("success");
+}).catch(()=>{
+  console.log("Failed");
+})
+
+-> In the above example we created a variable "mypromise" and assigned the promise to it.
+-> Whenever using the promises we need to use the "new" keyword before using the promises.
+-> After the new keyword we created the promise function and inside it we created a arrow 
+function which takes 2 parameters which are myResolve and myReject.
+-> Inside the arrow function we called the myResolve function() and then we write the asynchronous
+code below the function in which we use the .then() and .catch().
+
+-> The "then" function will be executed when resolve is called or else the "catch" fucntion will be
+executed.
+-> In the above example the output will be "success" because we called the myresolve() in the
+function.

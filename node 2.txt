@@ -1,0 +1,18 @@
+How web works:-
+-> Generally the web works as client/server architecture.
+-> Here the users computer is considered as the client, The client sends
+sends some requesst to the server and the server provides the response for it.
+-> The requests can be anything such as submitting forms, searching a website etc.
+-> The main goal of node js is to create the server just like the client/server which 
+provides the response to the user's request.
+
+
+Core Modules:-
+
+1.fs -> used to write and read the files in node.js
+2.http -> used for creating server
+3.https -> used for creating secure server
+4.path -> paths for windows and linux can be differentiate to solve this path module can be used 
+5.os -> used to take and give info about the operating system.
+
+-> These are the core modules which come along with the node.js and used for various actions.

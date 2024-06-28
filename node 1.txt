@@ -1,0 +1,32 @@
+what is node.js
+-> Nodejs is js runtime, then what is js runtime?
+-> Node.js is another version of js, with the help of node.js we can do various action 
+from the outside of the browser.
+-> By using the node js we can also built server.
+
+How node js works?
+-> To understand how node js works we need to know how the js works.
+-> The popular browser we use for running the js is chrome and inside the chrome
+browser we use a thing called v8 engine which is written in c++.
+-> This v8 engine takes the js code from the browser and the converts it into the
+machine code.
+-> similiarly the node js is also use the v8 engine to convert the js code into 
+machine code, therefore the v8 engine plays an important role in this.
+-> In browser,we cannot access the file system directly due to the security purpose,
+but to use the node js as a normal programming language it should use the file systems
+and the network.
+-> Therefore it modifies the v8 engine to add some modules which are filesystem,Os,Http etc.
+-> By using these modules we can perform the various operations inside the node js.
+
+Installing node.js:-
+-> To install node.js we can use the chrome browser.
+-> Go to chrome and search for the node.js and download it at node.js.org website.
+-> Set up node.js is pretty simple just agree to all the things it asked and now we 
+have the node js in our system.
+-> To check whther it is installed successfully in our system go to cmd and type "node -v"
+and we will get the current version of the node.js in our system.
+-> we can directly use the node js in cmd, to do that just type "node" in the cmd and it 
+will start the node js environment in cmd.
+-> This can be helpful to check small things in node js but to built large scale applications
+and we need to install several files and we need the workspace for that we use an code editor 
+called visual studio and we write all our nodejs code in it.

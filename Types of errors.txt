@@ -1,0 +1,20 @@
+-> In node.js we have 3 common type of errors, which are
+1.syntax errors
+2. Runtime errors
+3. Logical errors
+
+1.Syntax errors:-
+-> Generally the syntax errors are something that we make
+while writing the code.
+-> The syntax errors are generally small mistakes that we make 
+and these kind of errors can be easily identified.
+
+2.Runtime errors:-
+-> The Runtime errors generally occurs while running the programs.
+-> The Runtime errors can also be solved easily.
+
+3.Logical errors:-
+-> The Logical errors can be occur when we do any logic mistakes while
+writing the code.
+-> These kind of errors are very difficult to solve among all the other
+errors.
